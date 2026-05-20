@@ -24,20 +24,20 @@ function ContactPage() {
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // 1. SEND TO YOU
+    // 📩 EMAIL TO YOU
     emailjs.sendForm(
-      "service_xxx",
-      "template_owner",
+      "service_abc123",
+      "template_k9x2ab",
       e.currentTarget,
-      "PUBLIC_KEY"
+     "abcD12345XYZ"
     );
 
-    // 2. AUTO REPLY TO DRIVER
+    // 🤖 AUTO REPLY TO DRIVER
     emailjs.sendForm(
-      "service_xxx",
+      "service_abc123",
       "template_auto_reply",
       e.currentTarget,
-      "PUBLIC_KEY"
+      "abcD12345XYZ"
     );
 
     setSubmitted(true);
