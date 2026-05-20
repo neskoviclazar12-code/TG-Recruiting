@@ -26,7 +26,7 @@ function ContactPage() {
 
     // 📩 EMAIL TO YOU
     emailjs.sendForm(
-      "service_abc123",
+      "service_s33e7ei",
       "template_k9x2ab",
       e.currentTarget,
      "abcD12345XYZ"
@@ -34,7 +34,7 @@ function ContactPage() {
 
     // 🤖 AUTO REPLY TO DRIVER
     emailjs.sendForm(
-      "service_abc123",
+      "service_s33e7ei",
       "template_auto_reply",
       e.currentTarget,
       "abcD12345XYZ"
